@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: black;
+    background-color: rgb(39, 35, 35);
     
     
 }
@@ -50,4 +50,21 @@ button {
 }
 a{
     text-decoration: none;
+}
+
+.footernote {
+    background-color: black;
+    padding: 10px;
+    height: 65px;
+    font-size: small;
+}
+
+.insta {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    height: min-content;
+}
+.insta:hover {
+    border-bottom: 2px dotted white;
 }
