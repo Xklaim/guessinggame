@@ -6,6 +6,10 @@
 header{
     height: 75px;
     background-color: black;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    width: 100%;
 }
 
 .logo{
@@ -34,6 +38,7 @@ body{
 }
 
 .headings {
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,4 +140,97 @@ a{
 }
 .insta:hover {
     border-bottom: 2px dotted white;
+}
+
+
+@media only screen and (max-width:425px){
+    header{
+        height: 75px;
+        width: 100%, 100vh;
+    }
+    
+    .logo{
+        margin-right: auto;
+    }
+    .logoimg{
+        height: 40px;
+    }
+    .headerlink{
+        margin-right: 15px;
+    }
+
+    
+    .headings {
+        margin-top: 50px;
+    }
+    
+    
+    h1 {
+        
+        margin-bottom: 10px;
+    }
+ 
+    
+    
+    
+    .gameplay {
+        margin-top: 90px;
+        
+    }
+    
+    button {
+        font-size: small;
+        padding: 5px 10px;
+        border-radius: 10px;
+        
+    }
+     
+    
+    .about{
+        margin-top: 70px;
+    
+    }
+    
+    .ruleshead{
+        margin: 10px;
+    }
+    
+    .rules{
+      font-size: small;
+      margin-left: 30px;
+    }
+    
+    li{
+        margin-top: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: small;
+    }
+    
+    .footernote {
+        background-color: black;
+        padding: 10px;
+        height: 65px;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    
+    }
+    
+    
+    .insta {
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        height: min-content;
+    }
+    .insta:hover {
+        border-bottom: 2px dotted white;
+    }
+
 }
