@@ -3,34 +3,71 @@
     padding: 0;
 }
 
+header{
+    height: 75px;
+    background-color: black;
+}
 
-
+.logo{
+    margin-right: auto;
+}
+.logoimg{
+    height: 65px;
+}
+.headernav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.headerlink{
+    margin-right: 20px;
+    color: bisque;
+}
+.headerlink:hover{
+    border-bottom: 2px dotted white;
+    color: rgb(224, 161, 83);
+}
 body{
     background-color: rgb(39, 35, 35);
     
     
 }
+
+.headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 h1 {
     color: azure;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    display: block;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-    
+    margin-bottom: 20px;
 }
 
 h2 {
     color: azure;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    display: block;
+   
+    
+}
+
+.btn{
     display: flex;
-    text-align: center;
     justify-content: center;
-    margin-top: 40vh;
+    align-items: center;
+}
+
+.gameplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
     
 }
 
@@ -40,14 +77,38 @@ button {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size: large;
-    display: block;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin:2vh 0 0 48vw;
-    padding: 2px 5px 2px 5px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
     
 }
+button:hover{
+    background-color: white;
+}
+
+
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ruleshead{
+    margin: 15px;
+}
+
+.rules{
+    color: bisque;
+}
+
+li{
+    margin-top: 10px;
+}
+
 a{
     text-decoration: none;
 }
@@ -57,7 +118,14 @@ a{
     padding: 10px;
     height: 65px;
     font-size: small;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
 }
+
 
 .insta {
     color: aliceblue;
